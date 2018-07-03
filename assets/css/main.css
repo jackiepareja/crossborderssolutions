@@ -234,6 +234,8 @@ table#entities-table.table>tbody>tr>td{
 }
 div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content{
     width:40rem;
+    position:relative;
+    right:27%;
 }
 h5#exampleModalLabel.modal-title{
     color:#FFF;

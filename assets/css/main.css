@@ -50,7 +50,7 @@ form#modal-forms>div.form-group>label.col-lg-4,
 form#modal-forms>div.form-group>label{
     max-width:30%;
 }
-form#modal-forms>div.form-group.row>input#exampleInputEmail1.col-lg-8,
+
 form#modal-forms>div.form-group.row>select.form-control.col-lg-8,
 form#modal-forms>div.form-group>select.form-control.col-lg-8,
 form#modal-forms>div.form-group.row>textarea#exampleFormControlTextarea1.form-control.col-lg-8{
@@ -162,7 +162,7 @@ div#filter-menu.row.container>button.btn.btn-secondary.apply-filter{
     color:#FFF;
     font-size:14px;
     margin:1rem 0 1rem 2rem;
-    width:6rem;
+    width:7rem;
 }
 div#multiCollapseExample.multi-collapse.collapse.show>div.card.card-body,
 div#multiCollapseExample1.multi-collapse.collapse.show>div.card.card-body,
@@ -178,42 +178,7 @@ div#multiCollapseExample10.multi-collapse.collapse.show>div.card.card-body,
 div#multiCollapseExample11.multi-collapse.collapse.show>div.card.card-body{
     border:none;
 }
-table#entities-table.table>tbody>tr>td{
-    font-size:14px;
-    vertical-align:middle;
-}
-div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content{
-    width:40rem;
-}
-h5#exampleModalLabel.modal-title{
-    color:#FFF;
-}
-form#modal-forms>div.form-group.row>table.table.table-striped>thead>tr>th,
-form#modal-forms>div.form-group.row>table.table.table-striped>tbody>tr>th{
-    text-align:left;
-    font-size:13px;
-    font-weight:500;
-}
-form#modal-forms>div.form-group.row>table.table.table-striped>tbody>tr>td>input#exampleInputEmail1.form-control{
-    max-width:65%;
-}
-div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content>div.modal-footer.row{
-    padding:1rem 3rem;
-    margin: auto 0;
-}
-div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content>div.modal-header>button.close{
-    color:#FFF;
-}
-h5#exampleModalLabel.modal-title{
-    font-size:18px;
-}
-div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content>div.modal-header{
-    background-color:#000;
-    padding:.5rem 1rem;
-}
-span.entity-code{
-    font-size:14px;
-}
+
 /*==========================================
  Footer
 ===========================================*/
@@ -261,6 +226,48 @@ table#entities-table.table>tbody>tr>th>a.btn{
 form#modal-forms>div.form-group.row>label.col-lg-4{
     font-size:14px;
     max-width:30%;
+}
+table#entities-table.table>tbody>tr>td{
+    font-size:14px;
+    vertical-align:middle;
+}
+div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content{
+    width:40rem;
+}
+h5#exampleModalLabel.modal-title{
+    color:#FFF;
+}
+form#modal-forms>div.form-group.row>table.table>thead>tr>th,
+form#modal-forms>div.form-group.row>table.table>tbody>tr>th{
+    text-align:left;
+    font-size:13px;
+    font-weight:500;
+}
+
+form#modal-forms>div.form-group.row>input#exampleInputEmail1.col-lg-8,
+form#modal-forms>div.form-group.row>input#exampleInputEmail2.col-lg-8,
+form#modal-forms>div.form-group.row>select.form-control.col-lg-8,
+textarea#exampleFormControlTextarea1.form-control.col-lg-8{
+    border:1px solid #e3e3e3;
+    border-radius:5px;
+    background-color:#e3e3e3;
+}
+div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content>div.modal-footer.row{
+    padding:1rem 3rem;
+    margin: auto 0;
+}
+div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content>div.modal-header>button.close{
+    color:#FFF;
+}
+h5#exampleModalLabel.modal-title{
+    font-size:18px;
+}
+div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content>div.modal-header{
+    background-color:#000;
+    padding:.5rem 1rem;
+}
+span.entity-code{
+    font-size:14px;
 }
 /*==========================================
  Responsive

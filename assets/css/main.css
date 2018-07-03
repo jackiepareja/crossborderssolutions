@@ -15,202 +15,162 @@
 
 ==========================================================================================*/
 
-
 /*==========================================
 00. Colors
 ===========================================*/
-
-
 /*==========================================
  Body, links, paragraphs, general style
 ===========================================*/
-
-div#navbarSupportedContent.collapse.navbar-collapse.justify-content-end>ul.nav>li.nav-item>a.nav-link {
-    color: #FFF;
-    border-left: 1px solid #FFF;
-    padding: 1rem;
-    font-size: 14px;
+div#navbarSupportedContent.collapse.navbar-collapse.justify-content-end>ul.nav>li.nav-item>a.nav-link{
+    color:#FFF;
+    border-left:1px solid #FFF;
+    padding:1rem;
+    font-size:14px;
 }
-
 nav#navigation.navbar.navbar-expand-xl.navbar-dark.bg-dark>svg.svg-inline--fa.fa-square.fa-w-14,
 div#navbarSupportedContent.collapse.navbar-collapse.justify-content-end>ul.nav>li.nav-item>a.nav-link>svg.svg-inline--fa.fa-cog.fa-w-16,
 div#navbarSupportedContent.collapse.navbar-collapse.justify-content-end>ul.nav>li.nav-item>a.nav-link>svg.svg-inline--fa.fa-square.fa-w-14,
 div#navbarSupportedContent.collapse.navbar-collapse.justify-content-end>ul.nav>li.nav-item>a.nav-link>svg.svg-inline--fa.fa-question.fa-w-12,
-div#navbarSupportedContent.collapse.navbar-collapse.justify-content-end>ul.nav>li.nav-item>a.nav-link>svg.svg-inline--fa.fa-arrow-alt-right.fa-w-14 {
-    font-size: 1.5rem;
-    vertical-align: top;
+div#navbarSupportedContent.collapse.navbar-collapse.justify-content-end>ul.nav>li.nav-item>a.nav-link>svg.svg-inline--fa.fa-arrow-alt-right.fa-w-14
+{
+    font-size:1.5rem;
+    vertical-align:top;
 }
-
-table#entities-table.table>tbody>tr>th>a.btn>svg.svg-inline--fa.fa-plus-circle.fa-w-16 {
-    color: #000;
+table#entities-table.table>tbody>tr>th>a.btn>svg.svg-inline--fa.fa-plus-circle.fa-w-16{
+    color:#000;
 }
-
 form#modal-forms>div.form-group>label.col-lg-4,
-form#modal-forms>div.form-group.row>label {
-    font-size: 14px;
+form#modal-forms>div.form-group.row>label{
+    font-size:14px;
 }
-
-form#modal-forms>div.form-group.row>label {
-    padding: 0 4rem 0 1rem;
+form#modal-forms>div.form-group.row>label{
+    padding:0 4rem 0 1rem;
 }
-
 form#modal-forms>div.form-group>label.col-lg-4,
-form#modal-forms>div.form-group>label {
-    max-width: 30%;
+form#modal-forms>div.form-group>label{
+    max-width:30%;
 }
-
-div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content>div.modal-footer.row>button.btn {
-    background-color: #00B0B9;
-    color: #FFF;
+div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content>div.modal-footer.row>button.btn{
+    background-color:#00B0B9;
+    color:#FFF;
 }
-
 button#dropdownMenuButton.btn.btn-light.dropdown-toggle>svg.svg-inline--fa.fa-angle-down.fa-w-10,
 button#dropdownDomicile.btn.btn-light.dropdown-toggle>svg.svg-inline--fa.fa-angle-down.fa-w-10,
-button#dropdownPrimary.btn.btn-light.dropdown-toggle>svg.svg-inline--fa.fa-angle-down.fa-w-10 {
-    font-size: 15px;
-    margin-left: 22px;
-    color: #909090;
+button#dropdownPrimary.btn.btn-light.dropdown-toggle>svg.svg-inline--fa.fa-angle-down.fa-w-10{
+    font-size:15px;
+    margin-left:22px;
+    color:#909090;
 }
-
-
 /*==========================================
  Header & Navigation
 ===========================================*/
-
-
 /*TOP NAV*/
-
-nav#navigation.navbar.navbar-expand-xl.navbar-dark.bg-dark {
+nav#navigation.navbar.navbar-expand-xl.navbar-dark.bg-dark{
     padding: 0 3rem;
 }
-
-nav#navigation.navbar.navbar-expand-xl.navbar-dark.bg-dark>a.navbar-brand {
-    padding: 1rem 0;
+nav#navigation.navbar.navbar-expand-xl.navbar-dark.bg-dark>a.navbar-brand{
+    padding:1rem 0;
 }
-
-div#navbarSupportedContent.collapse.navbar-collapse.justify-content-end>ul.nav>li.nav-item>a.nav-link>span.menu-link {
-    vertical-align: super;
-    padding-left: 5px;
+div#navbarSupportedContent.collapse.navbar-collapse.justify-content-end>ul.nav>li.nav-item>a.nav-link>span.menu-link{
+    vertical-align:super;
+    padding-left:5px;
 }
-
-div#navbarSupportedContent.navbar-collapse.justify-content-end.collapse.show>ul.nav {
-    display: block;
-    text-align: right;
+div#navbarSupportedContent.navbar-collapse.justify-content-end.collapse.show>ul.nav{
+    display:block;
+    text-align:right;
 }
-
-div#navbarSupportedContent.navbar-collapse.justify-content-end.collapse.show>ul.nav>li.nav-item>a.nav-link {
-    padding: 6px 0;
-    border: none;
+div#navbarSupportedContent.navbar-collapse.justify-content-end.collapse.show>ul.nav>li.nav-item>a.nav-link{
+    padding:6px 0;
+    border:none;
 }
-
 
 /*BOTTOM-NAV*/
-
-nav#bottom-nav.row.container-fluid {
-    margin: auto;
+nav#bottom-nav.row.container-fluid{
+    margin:auto;
 }
-
 nav#bottom-nav.row.container-fluid,
-nav#bottom-nav.row.container-fluid>ol.breadcrumb {
-    background-color: #E3E3E3;
+nav#bottom-nav.row.container-fluid>ol.breadcrumb{
+    background-color:#E3E3E3;
 }
-
-nav#bottom-nav.row.container-fluid>ol.breadcrumb.container-fluid {
-    padding: 0;
+nav#bottom-nav.row.container-fluid>ol.breadcrumb.container-fluid{
+    padding:0;
 }
-
-nav#bottom-nav.row.container-fluid>ul.nav.nav-tabs {
-    padding: 1rem 1rem 0 41rem;
+nav#bottom-nav.row.container-fluid>ul.nav.nav-tabs{
+    padding:1rem 1rem 0 43rem;
 }
-
-nav#bottom-nav.row.container-fluid>ol.breadcrumb.container {
-    padding: 2rem 0 0 0;
+nav#bottom-nav.row.container-fluid>ol.breadcrumb.container{
+    padding:2rem 0 0 0;
 }
-
 nav#bottom-nav.row.container-fluid>ol.breadcrumb>li.breadcrumb-item>a>span.bottom-menu-link,
-nav#bottom-nav.row.container-fluid>ol.breadcrumb>li.breadcrumb-item>span.bottom-menu-link {
-    font-size: 14px;
-    color: #000;
+nav#bottom-nav.row.container-fluid>ol.breadcrumb>li.breadcrumb-item>span.bottom-menu-link{
+    font-size:14px;
+    color:#000;
 }
-
-nav#bottom-nav.row.container-fluid>ul.nav.nav-tabs>li.nav-item>a.nav-link {
-    font-size: 14px;
-    font-weight: 600;
-    text-align: center;
-    color: #000;
-    padding: .5rem 3.5rem;
-    border-radius: 0;
+nav#bottom-nav.row.container-fluid>ul.nav.nav-tabs>li.nav-item>a.nav-link{
+    font-size:14px;
+    font-weight:600;
+    text-align:center;
+    color:#000;
+    padding:.5rem 3.5rem;
+    border-radius:0;
 }
-
-nav#bottom-nav.row.container-fluid>ul.nav.nav-tabs>li.nav-item>a.nav-link.active {
-    background-color: #FFF;
-    color: #000;
+nav#bottom-nav.row.container-fluid>ul.nav.nav-tabs>li.nav-item>a.nav-link.active{
+    background-color:#FFF;
+    color:#000;
 }
-
-nav#bottom-nav.row.container-fluid>ul.nav.nav-tabs>li.nav-item>a.nav-link {
-    background-color: #909090;
-    color: #FFF;
+nav#bottom-nav.row.container-fluid>ul.nav.nav-tabs>li.nav-item>a.nav-link{
+    background-color:#909090;
+    color:#FFF;
 }
-
 
 /*FILTER MENU*/
-
-div#filter-menu.row.container {
+div#filter-menu.row.container{
     display: -webkit-inline-box;
 }
-
-div#filter-menu.row.container>div.dropdown.filter-menu {
-    background-color: #e3e3e3;
-    border: 1px solid #000;
-    border-radius: 5px;
-    width: 10.5rem;
-    margin: 1rem 0rem 1rem 2rem;
+div#filter-menu.row.container>div.dropdown.filter-menu{
+    background-color:#e3e3e3;
+    border:1px solid #000;
+    border-radius:5px;
+    width:10.5rem;
+    margin:1rem 0rem 1rem 2rem;
 }
-
-div#filter-menu.row.container>div.dropdown.filter-menu.primary-function {
-    width: 12.5rem;
+div#filter-menu.row.container>div.dropdown.filter-menu.primary-function{
+    width:12.5rem;
 }
-
 div#filter-menu.row.container>div.dropdown.filter-menu>button#dropdownMenuButton.btn.btn-light.dropdown-toggle,
-div.dropdown.filter-menu>button#dropdownDomicile.btn.btn-light.dropdown-toggle {
-    background-color: #e3e3e3;
-    border: none;
-    width: 7.7rem;
-    font-size: 14px;
+div.dropdown.filter-menu>button#dropdownDomicile.btn.btn-light.dropdown-toggle{
+    background-color:#e3e3e3;
+    border:none;
+    width:7.7rem;
+    font-size:14px;
 }
-
-div.dropdown.filter-menu>button#dropdownPrimary.btn.btn-light.dropdown-toggle {
-    background-color: #e3e3e3;
-    border: none;
-    width: 9.7rem;
-    font-size: 14px;
+div.dropdown.filter-menu>button#dropdownPrimary.btn.btn-light.dropdown-toggle{
+    background-color:#e3e3e3;
+    border:none;
+    width:9.7rem;
+    font-size:14px;
 }
-
-div#filter-menu.row.container>div.dropdown.filter-menu>button.btn.btn-light.times-button {
-    background-color: #909090;
-    border: none;
-    border-radius: 0px 5px 5px 0px;
-    width: 2.4rem;
+div#filter-menu.row.container>div.dropdown.filter-menu>button.btn.btn-light.times-button{
+    background-color:#909090;
+    border:none;
+    border-radius:0px 5px 5px 0px;
+    width:2.4rem;
 }
-
-button#dropdownMenuButton.btn.btn-light.dropdown-toggle>span.dropdown-text {
-    margin-right: 7px;
+button#dropdownMenuButton.btn.btn-light.dropdown-toggle>span.dropdown-text{
+    margin-right:7px;
 }
-
-button#dropdownDomicile.btn.btn-light.dropdown-toggle>span.dropdown-text {
-    margin-right: 1.6rem;
+button#dropdownDomicile.btn.btn-light.dropdown-toggle>span.dropdown-text{
+    margin-right:1.6rem;
 }
-
 div#filter-menu.row.container>button.btn.btn-secondary.remove-filter,
-div#filter-menu.row.container>button.btn.btn-secondary.apply-filter {
-    background-color: #00B0B9;
-    border-color: #00B0B9;
-    color: #FFF;
-    font-size: 14px;
-    margin: 1rem 0 1rem 2rem;
-    width: 7rem;
+div#filter-menu.row.container>button.btn.btn-secondary.apply-filter{
+    background-color:#00B0B9;
+    border-color:#00B0B9;
+    color:#FFF;
+    font-size:14px;
+    margin:1rem 0 1rem 2rem;
+    width:7rem;
 }
-
 div#multiCollapseExample.multi-collapse.collapse.show>div.card.card-body,
 div#multiCollapseExample1.multi-collapse.collapse.show>div.card.card-body,
 div#multiCollapseExample2.multi-collapse.collapse.show>div.card.card-body,
@@ -222,101 +182,84 @@ div#multiCollapseExample7.multi-collapse.collapse.show>div.card.card-body,
 div#multiCollapseExample8.multi-collapse.collapse.show>div.card.card-body,
 div#multiCollapseExample9.multi-collapse.collapse.show>div.card.card-body,
 div#multiCollapseExample10.multi-collapse.collapse.show>div.card.card-body,
-div#multiCollapseExample11.multi-collapse.collapse.show>div.card.card-body {
-    border: none;
+div#multiCollapseExample11.multi-collapse.collapse.show>div.card.card-body{
+    border:none;
 }
-
 
 /*==========================================
  Footer
 ===========================================*/
-
-
 /*==========================================
  Section Entity Directory
 ===========================================*/
-
-div#border-entities.row.container-fluid {
-    background-color: #909090;
-    margin: auto;
+div#border-entities.row.container-fluid{
+    background-color:#909090;
+    margin:auto;
 }
-
-div#border-entities.row.container-fluid>h6.section-header {
+div#border-entities.row.container-fluid>h6.section-header{
     margin: 5px 1rem;
 }
-
-div#border-entities.row.container-fluid>div.bolt-icon>button#dropdownBoltHeader.btn.btn-light.dropdown-toggle {
-    background-color: #e3e3e3;
-    width: 2rem;
-    height: 2rem;
-    text-align: center;
-    border-radius: 50%;
-    color: #909090;
-    margin: 5px auto 5px 66.9rem;
-    padding: 4px;
+div#border-entities.row.container-fluid>div.bolt-icon>button#dropdownBoltHeader.btn.btn-light.dropdown-toggle{
+    background-color:#e3e3e3;
+    width:2rem;
+    height:2rem;
+    text-align:center;
+    border-radius:50%;
+    color:#909090;
+    margin:5px auto 5px 66.9rem;
+    padding:4px;
 }
-
 button#dropdownBoltHeader.btn.btn-light.dropdown-toggle::after,
-button#dropdownBoltA.btn.btn-light.dropdown-toggle::after {
-    display: none;
+button#dropdownBoltA.btn.btn-light.dropdown-toggle::after{
+    display:none;
 }
-
-button#dropdownBoltA.btn.btn-light.dropdown-toggle {
-    background-color: #909090;
-    border-radius: 50%;
-    color: #FFF;
+button#dropdownBoltA.btn.btn-light.dropdown-toggle{
+    background-color:#909090;
+    border-radius:50%;
+    color:#FFF;
 }
-
-table#entities-table.table>thead>tr>th.table-header {
-    font-size: 14px;
-    font-weight: 700;
+table#entities-table.table>thead>tr>th.table-header{
+    font-size:14px;
+    font-weight:700;
 }
-
-table#entities-table.table>tbody>tr>th {
-    padding: 0 8px;
-    font-weight: 400;
-    vertical-align: inherit;
+table#entities-table.table>tbody>tr>th{
+    padding:0 8px;
+    font-weight:400;
+    vertical-align:inherit;
 }
-
-table#entities-table.table>tbody>tr>th>a.btn {
-    padding: 0;
+table#entities-table.table>tbody>tr>th>a.btn{
+    padding:0;
 }
-
-form#modal-forms>div.form-group.row>label.col-lg-4 {
-    font-size: 14px;
-    max-width: 30%;
+form#modal-forms>div.form-group.row>label.col-lg-4{
+    font-size:14px;
+    max-width:30%;
 }
-
-table#entities-table.table>tbody>tr>td {
-    font-size: 14px;
-    vertical-align: middle;
+table#entities-table.table>tbody>tr>td{
+    font-size:14px;
+    vertical-align:middle;
 }
-
-div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content {
-    width: 40rem;
-    position: relative;
-    right: 27%;
+div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content{
+    width:40rem;
+    position:relative;
+    right:27%;
 }
-
-h5#exampleModalLabel.modal-title {
-    color: #FFF;
+h5#exampleModalLabel.modal-title{
+    color:#FFF;
 }
-
 form#modal-forms>div.form-group.row>table.table>thead>tr>th,
-form#modal-forms>div.form-group.row>table.table>tbody>tr>th {
-    text-align: left;
-    font-size: 13px;
-    font-weight: 500;
-    border: none;
-    padding: 20px 17px;
+form#modal-forms>div.form-group.row>table.table>tbody>tr>th{
+    text-align:left;
+    font-size:13px;
+    font-weight:500;
+    border:none;
+    padding:20px 17px;
 }
-
 form#modal-forms>div.form-group.row>table.table>thead>tr>th,
 form#modal-forms>div.form-group.row>table.table.tbody>tr>th,
-form#modal-forms>div.form-group.row>table.table>tbody>tr>td {
-    border: none;
+form#modal-forms>div.form-group.row>table.table>tbody>tr>td
+{
+    border:none;
 }
-
 form#modal-forms>div.form-group.row>input#exampleInputEmail1.col-lg-8,
 form#modal-forms>div.form-group.row>input#exampleInputEmail2.col-lg-8,
 form#modal-forms>div.form-group.row>select.form-control.col-lg-8,
@@ -324,130 +267,127 @@ textarea#exampleFormControlTextarea1.form-control.col-lg-8,
 input#exampleInputEmail1.form-control.percent1,
 input#exampleInputEmail1.form-control.percent2,
 input#exampleInputEmail1.form-control.percent3,
-form#modal-forms>div.form-group.row>table.table>tbody>tr>td>select.form-control {
-    border: 1px solid #e3e3e3;
-    border-radius: 5px;
-    background-color: #e3e3e3;
+form#modal-forms>div.form-group.row>table.table>tbody>tr>td>select.form-control{
+    border:1px solid #e3e3e3;
+    border-radius:5px;
+    background-color:#e3e3e3;
 }
-
-div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content>div.modal-footer.row {
-    padding: 1rem 3rem;
+div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content>div.modal-footer.row{
+    padding:1rem 3rem;
     margin: auto 0;
 }
-
-div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content>div.modal-header>button.close {
-    color: #FFF;
+div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content>div.modal-header>button.close{
+    color:#FFF;
 }
-
-h5#exampleModalLabel.modal-title {
-    font-size: 18px;
+h5#exampleModalLabel.modal-title{
+    font-size:18px;
 }
-
-div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content>div.modal-header {
-    background-color: #00B0B9;
-    padding: .5rem 1rem;
+div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content>div.modal-header{
+    background-color:#00B0B9;
+    padding:.5rem 1rem;
 }
-
-span.entity-code {
-    font-size: 14px;
+span.entity-code{
+    font-size:14px;
 }
-
 input#exampleInputEmail1.col-lg-8,
 form#modal-forms>div.form-group.row>select.form-control.col-lg-8,
 input#exampleInputEmail1.form-control.percent1,
 input#exampleInputEmail1.form-control.percent2,
-input#exampleInputEmail1.form-control.percent3 {
-    max-width: 35%;
+input#exampleInputEmail1.form-control.percent3{
+    max-width:35%;
 }
-
-form#modal-forms>div.form-group.row>table.table>tbody>tr>td>select.form-control.code-select {
-    max-width: 85%;
-    float: left;
-    border-radius: 5px 0 0 5px;
-    background-color: #e3e3e3;
+form#modal-forms>div.form-group.row>table.table>tbody>tr>td>select.form-control.code-select{
+    max-width:85%;
+    float:left;
+    border-radius:5px 0 0 5px;
+    background-color:#e3e3e3;
 }
-
-form#modal-forms>div.form-group.row>table.table>tbody>tr>td>select.form-control {
-    max-width: 98%;
+form#modal-forms>div.form-group.row>table.table>tbody>tr>td>select.form-control{
+    max-width:98%;
 }
-
-form#modal-forms>div.form-group.row>table.table>tbody>tr>td>button {
-    border: 1px solid #9cabaa;
-    background-color: #9cabaa;
-    height: 2.35rem;
-    border-radius: 0 5px 5px 0;
-    color: #e3e3e3;
+form#modal-forms>div.form-group.row>table.table>tbody>tr>td>button{
+    border:1px solid #9cabaa;
+    background-color:#9cabaa;
+    height:2.35rem;
+    border-radius:0 5px 5px 0;
+    color:#e3e3e3;
 }
-
 form#modal-forms>div.form-group.row>div.dropdown>button#dropdownMenuButtonA.btn.btn-secondary,
 form#modal-forms>div.form-group.row>div.dropdown>button#dropdownMenuButtonB.btn.btn-secondary,
 form#modal-forms>div.form-group.row>div.dropdown>button#dropdownMenuButtonC.btn.btn-secondary,
 form#modal-forms>div.form-group.row>div.dropdown>button#dropdownMenuButtonD.btn.btn-secondary,
 form#modal-forms>div.form-group.row>div.dropdown>button#dropdownMenuButtonE.btn.btn-secondary,
 form#modal-forms>div.form-group.row>div.dropdown>button#dropdownMenuButtonF.btn.btn-secondary,
-form#modal-forms>div.form-group.row>div.dropdown>button#dropdownMenuButtonG.btn.btn-secondary {
-    width: 13.8rem;
-    background-color: #e4e4e4;
-    border: 1px solid #e4e4e4;
-    color: #495057;
-    text-align: left;
+form#modal-forms>div.form-group.row>div.dropdown>button#dropdownMenuButtonG.btn.btn-secondary{
+    width:13.8rem;
+    background-color:#e4e4e4;
+    border:1px solid #e4e4e4;
+    color:#495057;
+    text-align:left;
 }
-
 button#dropdownMenuButtonA.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10,
 button#dropdownMenuButtonB.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10,
 button#dropdownMenuButtonC.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10,
 button#dropdownMenuButtonD.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10,
 button#dropdownMenuButtonE.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10,
 button#dropdownMenuButtonF.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10,
-button#dropdownMenuButtonG.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10 {
-    margin-left: 5rem;
+button#dropdownMenuButtonG.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10
+{
+    margin-left:5rem;
 }
-
-form#modal-forms>div.form-group.row>table.table>tbody>tr>td>div.dropdown.code-select {
-    width: 81.8%;
-    color: #495057;
-    background-color: #e4e4e4;
-    text-align: left;
-    border-radius: 5px;
+form#modal-forms>div.form-group.row>table.table>tbody>tr>td>div.dropdown.code-select{
+    width:81.8%;
+    color:#495057;
+    background-color:#e4e4e4;
+    text-align:left;
+    border-radius:5px;
 }
-
-form#modal-forms>div.form-group.row>table.table>tbody>tr>td>div.dropdown.code-select>button.btn.btn-light.times-button {
-    width: 2.4rem;
-    background-color: #939393;
-    color: #FFF;
-    border: 1px solid #939393;
-    border-radius: 0 5px 5px 0;
+form#modal-forms>div.form-group.row>table.table>tbody>tr>td>div.dropdown.code-select>button.btn.btn-light.times-button{
+    width:2.4rem;
+    background-color:#939393;
+    color:#FFF;
+    border:1px solid #939393;
+    border-radius:0 5px 5px 0;
+    
 }
-
 button#dropdownMenuButtonE.btn.btn-light.dropdown-toggle,
 button#dropdownMenuButtonF.btn.btn-light.dropdown-toggle,
-button#dropdownMenuButtonG.btn.btn-light.dropdown-toggle {
-    background-color: transparent;
-    border: 1px solid #e4e4e4;
-    text-align: left;
+button#dropdownMenuButtonG.btn.btn-light.dropdown-toggle{
+    background-color:transparent;
+    border:1px solid #e4e4e4;
+    text-align:left;
 }
-
 button#dropdownMenuButtonE.btn.btn-light.dropdown-toggle>svg.svg-inline--fa.fa-angle-down.fa-w-10,
 button#dropdownMenuButtonF.btn.btn-light.dropdown-toggle>svg.svg-inline--fa.fa-angle-down.fa-w-10,
-button#dropdownMenuButtonG.btn.btn-light.dropdown-toggle>svg.svg-inline--fa.fa-angle-down.fa-w-10 {
-    margin-left: 2.33rem;
+button#dropdownMenuButtonG.btn.btn-light.dropdown-toggle>svg.svg-inline--fa.fa-angle-down.fa-w-10{
+    margin-left:2.33rem;
 }
-
-form#modal-forms>div.form-group.row>div.dropdown.show>div.dropdown-menu.show {
-    min-width: 13.8rem;
+form#modal-forms>div.form-group.row>div.dropdown.show>div.dropdown-menu.show{
+    min-width:13.8rem;
 }
-
-
 /*==========================================
  Responsive
 ===========================================*/
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
 
-@media screen and (min-width: 1025px) and (max-width: 1280px) {}
+    
+}
 
-@media only screen and (max-width: 1192px) {}
+@media only screen and (max-width: 1192px) {
 
-@media screen and (max-width: 768px) {}
+}
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 768px) {
 
-@media screen and (max-height: 360px) {}
+}
+
+
+@media screen and (max-width: 480px){
+
+}
+
+
+@media screen and (max-height: 360px) {
+
+}
+

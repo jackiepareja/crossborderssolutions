@@ -119,7 +119,7 @@ nav#bottom-nav.row.container-fluid>ul.nav.nav-tabs>li.nav-item>a.nav-link{
 
 /*FILTER MENU*/
 div#filter-menu.row.container{
-    display:-webkit-inline-box;
+    display: -webkit-inline-box;
 }
 div#filter-menu.row.container>div.dropdown.filter-menu{
     background-color:#e3e3e3;

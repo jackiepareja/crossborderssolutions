@@ -50,11 +50,9 @@ form#modal-forms>div.form-group>label.col-lg-4,
 form#modal-forms>div.form-group>label{
     max-width:30%;
 }
-
-form#modal-forms>div.form-group.row>select.form-control.col-lg-8,
-form#modal-forms>div.form-group>select.form-control.col-lg-8,
-form#modal-forms>div.form-group.row>textarea#exampleFormControlTextarea1.form-control.col-lg-8{
-    max-width:60%;
+div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content>div.modal-footer.row>button.btn{
+    background-color:#00B0B9;
+    color:#FFF;
 }
 
 /*==========================================
@@ -242,12 +240,23 @@ form#modal-forms>div.form-group.row>table.table>tbody>tr>th{
     text-align:left;
     font-size:13px;
     font-weight:500;
+    border:none;
+    padding:20px 17px;
 }
-
+form#modal-forms>div.form-group.row>table.table>thead>tr>th,
+form#modal-forms>div.form-group.row>table.table.tbody>tr>th,
+form#modal-forms>div.form-group.row>table.table>tbody>tr>td
+{
+    border:none;
+}
 form#modal-forms>div.form-group.row>input#exampleInputEmail1.col-lg-8,
 form#modal-forms>div.form-group.row>input#exampleInputEmail2.col-lg-8,
 form#modal-forms>div.form-group.row>select.form-control.col-lg-8,
-textarea#exampleFormControlTextarea1.form-control.col-lg-8{
+textarea#exampleFormControlTextarea1.form-control.col-lg-8,
+input#exampleInputEmail1.form-control.percent1,
+input#exampleInputEmail1.form-control.percent2,
+input#exampleInputEmail1.form-control.percent3,
+form#modal-forms>div.form-group.row>table.table>tbody>tr>td>select.form-control{
     border:1px solid #e3e3e3;
     border-radius:5px;
     background-color:#e3e3e3;
@@ -268,6 +277,29 @@ div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content>div.modal-he
 }
 span.entity-code{
     font-size:14px;
+}
+input#exampleInputEmail1.col-lg-8,
+form#modal-forms>div.form-group.row>select.form-control.col-lg-8,
+input#exampleInputEmail1.form-control.percent1,
+input#exampleInputEmail1.form-control.percent2,
+input#exampleInputEmail1.form-control.percent3{
+    max-width:35%;
+}
+form#modal-forms>div.form-group.row>table.table>tbody>tr>td>select.form-control.code-select{
+    max-width:85%;
+    float:left;
+    border-radius:5px 0 0 5px;
+    background-color:#e3e3e3;
+}
+form#modal-forms>div.form-group.row>table.table>tbody>tr>td>select.form-control{
+    max-width:98%;
+}
+form#modal-forms>div.form-group.row>table.table>tbody>tr>td>button{
+    border:1px solid #9cabaa;
+    background-color:#9cabaa;
+    height:2.35rem;
+    border-radius:0 5px 5px 0;
+    color:#e3e3e3;
 }
 /*==========================================
  Responsive

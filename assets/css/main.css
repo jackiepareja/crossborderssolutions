@@ -227,7 +227,7 @@ div#border-entities.row.container-fluid>div.bolt-icon>button#dropdownBoltHeader.
     text-align:center;
     border-radius:50%;
     color:#909090;
-    margin:5px auto 5px 85rem;
+    margin:5px auto 5px 72.2rem;
     padding:4px;
 }
 button#dropdownBoltHeader.btn.btn-light.dropdown-toggle::after,
@@ -258,6 +258,10 @@ form#modal-forms>div.form-group.row>label.col-lg-4{
 /*==========================================
  Responsive
 ===========================================*/
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+
+    
+}
 
 @media only screen and (max-width: 1192px) {
 

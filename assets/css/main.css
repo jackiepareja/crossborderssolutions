@@ -96,7 +96,7 @@ nav#bottom-nav.row.container-fluid>ol.breadcrumb.container-fluid{
     padding:0;
 }
 nav#bottom-nav.row.container-fluid>ul.nav.nav-tabs{
-    padding:1rem 1rem 0 43rem;
+    padding:1rem 1rem 0 41rem;
 }
 nav#bottom-nav.row.container-fluid>ol.breadcrumb.container{
     padding:2rem 0 0 0;
@@ -336,7 +336,7 @@ button#dropdownMenuButtonG.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa
     margin-left:5rem;
 }
 form#modal-forms>div.form-group.row>table.table>tbody>tr>td>div.dropdown.code-select{
-    width:85%;
+    width:81.8%;
     color:#495057;
     background-color:#e4e4e4;
     text-align:left;

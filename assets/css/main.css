@@ -92,13 +92,13 @@ nav#bottom-nav.row.container-fluid>ol.breadcrumb.container-fluid{
     padding:0;
 }
 nav#bottom-nav.row.container-fluid>ul.nav.nav-tabs{
-    padding:1rem 1rem 0 0;
+    padding:1rem 1rem 0 38rem;
 }
 nav#bottom-nav.row.container-fluid>ol.breadcrumb.container{
     padding:2rem 0 0 0;
 }
-nav#bottom-nav.row.container-fluid>ol.breadcrumb.container>li.breadcrumb-item>a>span.bottom-menu-link,
-nav#bottom-nav.row.container-fluid>ol.breadcrumb.container>li.breadcrumb-item>span.bottom-menu-link{
+nav#bottom-nav.row.container-fluid>ol.breadcrumb>li.breadcrumb-item>a>span.bottom-menu-link,
+nav#bottom-nav.row.container-fluid>ol.breadcrumb>li.breadcrumb-item>span.bottom-menu-link{
     font-size:14px;
     color:#000;
 }

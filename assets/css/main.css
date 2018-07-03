@@ -54,7 +54,13 @@ div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content>div.modal-fo
     background-color:#00B0B9;
     color:#FFF;
 }
-
+button#dropdownMenuButton.btn.btn-light.dropdown-toggle>svg.svg-inline--fa.fa-angle-down.fa-w-10,
+button#dropdownDomicile.btn.btn-light.dropdown-toggle>svg.svg-inline--fa.fa-angle-down.fa-w-10,
+button#dropdownPrimary.btn.btn-light.dropdown-toggle>svg.svg-inline--fa.fa-angle-down.fa-w-10{
+    font-size:15px;
+    margin-left:22px;
+    color:#909090;
+}
 /*==========================================
  Header & Navigation
 ===========================================*/
@@ -277,7 +283,7 @@ h5#exampleModalLabel.modal-title{
     font-size:18px;
 }
 div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content>div.modal-header{
-    background-color:#000;
+    background-color:#00B0B9;
     padding:.5rem 1rem;
 }
 span.entity-code{
@@ -305,6 +311,59 @@ form#modal-forms>div.form-group.row>table.table>tbody>tr>td>button{
     height:2.35rem;
     border-radius:0 5px 5px 0;
     color:#e3e3e3;
+}
+form#modal-forms>div.form-group.row>div.dropdown>button#dropdownMenuButtonA.btn.btn-secondary,
+form#modal-forms>div.form-group.row>div.dropdown>button#dropdownMenuButtonB.btn.btn-secondary,
+form#modal-forms>div.form-group.row>div.dropdown>button#dropdownMenuButtonC.btn.btn-secondary,
+form#modal-forms>div.form-group.row>div.dropdown>button#dropdownMenuButtonD.btn.btn-secondary,
+form#modal-forms>div.form-group.row>div.dropdown>button#dropdownMenuButtonE.btn.btn-secondary,
+form#modal-forms>div.form-group.row>div.dropdown>button#dropdownMenuButtonF.btn.btn-secondary,
+form#modal-forms>div.form-group.row>div.dropdown>button#dropdownMenuButtonG.btn.btn-secondary{
+    width:13.8rem;
+    background-color:#e4e4e4;
+    border:1px solid #e4e4e4;
+    color:#495057;
+    text-align:left;
+}
+button#dropdownMenuButtonA.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10,
+button#dropdownMenuButtonB.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10,
+button#dropdownMenuButtonC.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10,
+button#dropdownMenuButtonD.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10,
+button#dropdownMenuButtonE.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10,
+button#dropdownMenuButtonF.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10,
+button#dropdownMenuButtonG.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10
+{
+    margin-left:5rem;
+}
+form#modal-forms>div.form-group.row>table.table>tbody>tr>td>div.dropdown.code-select{
+    width:85%;
+    color:#495057;
+    background-color:#e4e4e4;
+    text-align:left;
+    border-radius:5px;
+}
+form#modal-forms>div.form-group.row>table.table>tbody>tr>td>div.dropdown.code-select>button.btn.btn-light.times-button{
+    width:2.4rem;
+    background-color:#939393;
+    color:#FFF;
+    border:1px solid #939393;
+    border-radius:0 5px 5px 0;
+    
+}
+button#dropdownMenuButtonE.btn.btn-light.dropdown-toggle,
+button#dropdownMenuButtonF.btn.btn-light.dropdown-toggle,
+button#dropdownMenuButtonG.btn.btn-light.dropdown-toggle{
+    background-color:transparent;
+    border:1px solid #e4e4e4;
+    text-align:left;
+}
+button#dropdownMenuButtonE.btn.btn-light.dropdown-toggle>svg.svg-inline--fa.fa-angle-down.fa-w-10,
+button#dropdownMenuButtonF.btn.btn-light.dropdown-toggle>svg.svg-inline--fa.fa-angle-down.fa-w-10,
+button#dropdownMenuButtonG.btn.btn-light.dropdown-toggle>svg.svg-inline--fa.fa-angle-down.fa-w-10{
+    margin-left:2.33rem;
+}
+form#modal-forms>div.form-group.row>div.dropdown.show>div.dropdown-menu.show{
+    min-width:13.8rem;
 }
 /*==========================================
  Responsive

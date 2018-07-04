@@ -54,9 +54,9 @@ div#exampleModal.modal.fade.show>div.modal-dialog>div.modal-content>div.modal-fo
     background-color:#00B0B9;
     color:#FFF;
 }
-button#dropdownMenuButton.btn.btn-light.dropdown-toggle>svg.svg-inline--fa.fa-angle-down.fa-w-10,
-button#dropdownDomicile.btn.btn-light.dropdown-toggle>svg.svg-inline--fa.fa-angle-down.fa-w-10,
-button#dropdownPrimary.btn.btn-light.dropdown-toggle>svg.svg-inline--fa.fa-angle-down.fa-w-10{
+button#dropdownMenuButton.btn.btn-light.dropdown-toggle>svg.svg-inline--fal.fa-angle-down.fa-w-10,
+button#dropdownDomicile.btn.btn-light.dropdown-toggle>svg.svg-inline--fal.fa-angle-down.fa-w-10,
+button#dropdownPrimary.btn.btn-light.dropdown-toggle>svg.svg-inline--fal.fa-angle-down.fa-w-10{
     font-size:15px;
     margin-left:22px;
     color:#909090;
@@ -325,13 +325,13 @@ form#modal-forms>div.form-group.row>div.dropdown>button#dropdownMenuButtonG.btn.
     color:#495057;
     text-align:left;
 }
-button#dropdownMenuButtonA.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10,
-button#dropdownMenuButtonB.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10,
-button#dropdownMenuButtonC.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10,
-button#dropdownMenuButtonD.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10,
-button#dropdownMenuButtonE.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10,
-button#dropdownMenuButtonF.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10,
-button#dropdownMenuButtonG.btn.btn-secondary>svg.svg-inline--fa.fa-angle-down.fa-w-10
+button#dropdownMenuButtonA.btn.btn-secondary>svg.svg-inline--fal.fa-angle-down.fa-w-10,
+button#dropdownMenuButtonB.btn.btn-secondary>svg.svg-inline--fal.fa-angle-down.fa-w-10,
+button#dropdownMenuButtonC.btn.btn-secondary>svg.svg-inline--fal.fa-angle-down.fa-w-10,
+button#dropdownMenuButtonD.btn.btn-secondary>svg.svg-inline--fal.fa-angle-down.fa-w-10,
+button#dropdownMenuButtonE.btn.btn-secondary>svg.svg-inline--fal.fa-angle-down.fa-w-10,
+button#dropdownMenuButtonF.btn.btn-secondary>svg.svg-inline--fal.fa-angle-down.fa-w-10,
+button#dropdownMenuButtonG.btn.btn-secondary>svg.svg-inline--fal.fa-angle-down.fa-w-10
 {
     margin-left:5rem;
 }
@@ -357,9 +357,9 @@ button#dropdownMenuButtonG.btn.btn-light.dropdown-toggle{
     border:1px solid #e4e4e4;
     text-align:left;
 }
-button#dropdownMenuButtonE.btn.btn-light.dropdown-toggle>svg.svg-inline--fa.fa-angle-down.fa-w-10,
-button#dropdownMenuButtonF.btn.btn-light.dropdown-toggle>svg.svg-inline--fa.fa-angle-down.fa-w-10,
-button#dropdownMenuButtonG.btn.btn-light.dropdown-toggle>svg.svg-inline--fa.fa-angle-down.fa-w-10{
+button#dropdownMenuButtonE.btn.btn-light.dropdown-toggle>svg.svg-inline--fal.fa-angle-down.fa-w-10,
+button#dropdownMenuButtonF.btn.btn-light.dropdown-toggle>svg.svg-inline--fal.fa-angle-down.fa-w-10,
+button#dropdownMenuButtonG.btn.btn-light.dropdown-toggle>svg.svg-inline--fal.fa-angle-down.fa-w-10{
     margin-left:2.33rem;
 }
 form#modal-forms>div.form-group.row>div.dropdown.show>div.dropdown-menu.show{
@@ -368,10 +368,6 @@ form#modal-forms>div.form-group.row>div.dropdown.show>div.dropdown-menu.show{
 /*==========================================
  Responsive
 ===========================================*/
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
-
-    
-}
 
 @media only screen and (max-width: 1192px) {
 
@@ -387,7 +383,18 @@ form#modal-forms>div.form-group.row>div.dropdown.show>div.dropdown-menu.show{
 }
 
 
-@media screen and (max-height: 360px) {
-
+@media screen and (max-height: 400px) {
+    div#border-entities.row.container-fluid>div.bolt-icon>button#dropdownBoltHeader.btn.btn-light.dropdown-toggle{
+        margin:5px auto 5px 77.2rem;
+    }
+    nav#bottom-nav.row.container-fluid>ul.nav.nav-tabs{
+        padding:1rem 1rem 0 49.6rem;
+    }
+    nav#bottom-nav.row.container-fluid>ol.breadcrumb{
+        padding-top:1.5rem;
+    }
+    table#entities-table.table>tbody>tr>th{
+        padding:0;
+    }
 }
 
